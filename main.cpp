@@ -91,14 +91,11 @@ int main()
 			error();
 		}
 
-		result.~complex_t();
 	}
 	else {
 		error();
 	}
 
 	std::cin.get();
-	complex1.~complex_t();
-	complex2.~complex_t();
     return 0;
 }
